@@ -1,0 +1,11 @@
+.navbar_dark{
+    background-color: var(--dark-color)!important;
+}
+
+.navbar_dark
+.social_icon{
+background-color: var(--primary-color)!important;
+color: var(--light-color)!important;
+}
+
+

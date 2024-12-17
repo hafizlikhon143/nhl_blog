@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #5A9BD6;
+    --light-color: #fff;
+    --dark-color: #041b33;
+}
+/* reset all */
+body{
+    background-color: #FAFAFA;
+}
+.bold_main_text{
+    font-size: 24px;
+    color: var(--light-color);
+    font-weight: bold;
+}
+.bold_title_text{
+    font-size: 20px;
+    color: var(--light-color);
+    font-weight: bold;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}

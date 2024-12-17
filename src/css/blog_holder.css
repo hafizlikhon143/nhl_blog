@@ -1,0 +1,103 @@
+@import url('style.css');
+#blog_container{
+    margin-left: 310px;
+}
+.blog_search_title{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 65px;
+    padding: 0px 20px;
+    color: var(--dark-color);
+}
+.blog_search_info{
+    margin-top: 15px;
+    text-align: center;
+}
+.blog_search_form_cont{
+    margin: 20px auto;
+    width: 90%;
+}
+.blog_search_text_input{
+    min-width: calc(100% - 90px);
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #bbbbbb solid;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.search_input_btn{
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    opacity: 1;
+}
+.search_input_btn:active{
+    opacity: 0.9;
+}
+.search_nav_bar{
+    width: 100%;
+}
+.short_navbar{
+    display: flex;
+    list-style: none;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.short_li_btn{
+    width: fit-content;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    border-bottom: 3px var(--primary-color) solid;
+}
+.short_li_btn.active{
+    border-bottom: 3px var(--dark-color) solid;
+}
+.short_li_btn:hover{
+    border-bottom: 3px var(--dark-color) solid;
+}
+.blog_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.view_more{
+    width: 100%;
+    display: grid;
+    padding: 20px;
+}
+.view_more_btn{
+    width: 100%;
+    height: 50px;
+    padding: 5px 30px;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+    position: relative;
+}
+.view_more_btn svg{
+    transform: scale(2);
+    display: grid;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 10px);
+    height: 20px;
+}
+@media screen and (max-width: 768px) {
+    #blog_container{
+        margin-left: 0px;
+    }
+}
