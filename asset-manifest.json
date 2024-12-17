@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nhl_blog/static/css/main.9dd8e599.css",
+    "main.js": "/nhl_blog/static/js/main.6f2f8b3a.js",
+    "static/media/Likhon_bg_nai_flip.png": "/nhl_blog/static/media/Likhon_bg_nai_flip.dde9e5ffc64bdb90ed6a.png",
+    "static/media/blog_img_1.jpg": "/nhl_blog/static/media/blog_img_1.9f0102f60b700851582b.jpg",
+    "static/media/blog_img_3.jpg": "/nhl_blog/static/media/blog_img_3.e58034af47c6733c4934.jpg",
+    "static/media/blog_img_6.jpg": "/nhl_blog/static/media/blog_img_6.2ec4bdfb15eeabea4d80.jpg",
+    "static/media/blog_img_5.jpg": "/nhl_blog/static/media/blog_img_5.b864e229c5abec7db5df.jpg",
+    "static/media/blog_img_4.jpg": "/nhl_blog/static/media/blog_img_4.3d318366df1c68d74ad3.jpg",
+    "static/media/blog_img_2.jpg": "/nhl_blog/static/media/blog_img_2.f42776bce87ca6a97043.jpg",
+    "index.html": "/nhl_blog/index.html",
+    "main.9dd8e599.css.map": "/nhl_blog/static/css/main.9dd8e599.css.map",
+    "main.6f2f8b3a.js.map": "/nhl_blog/static/js/main.6f2f8b3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd8e599.css",
+    "static/js/main.6f2f8b3a.js"
+  ]
+}
